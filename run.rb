@@ -13,7 +13,7 @@ def user_id
 end
 
 def time
-  Time.now.strftime('[%d/%B/%Y:%H:%M:%S -0700]')
+  Time.now.strftime('[%d/%b/%Y:%H:%M:%S -0700]')
 end
 
 def path
